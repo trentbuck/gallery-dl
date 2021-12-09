@@ -51,6 +51,9 @@ BASE_PATTERN = ShopifyExtractor.update({
         "root": "https://www.fashionnova.com",
         "pattern": r"(?:www\.)?fashionnova\.com",
     },
+    "loveraid": {
+        "root": "https://www.loveraid.com",
+    },
     "loungeunderwear": {
         "root": "https://loungeunderwear.com",
         "pattern": r"(?:[a-z]+\.)?loungeunderwear\.com",
