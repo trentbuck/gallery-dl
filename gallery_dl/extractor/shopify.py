@@ -43,6 +43,12 @@ class ShopifyExtractor(BaseExtractor):
 
 
 BASE_PATTERN = ShopifyExtractor.update({
+    "dollskill": {
+        "root": "https://www.dollskill.com",
+    },
+    "dressmylegs": {
+        "root": "https://dressmylegs.ie",
+    },
     "chelseacrew": {
         "root": "https://chelseacrew.com",
         "pattern": r"(?:www\.)?chelseacrew\.com",
